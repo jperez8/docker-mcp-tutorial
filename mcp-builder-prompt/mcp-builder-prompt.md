@@ -29,6 +29,8 @@ Before generating the MCP server, please provide:
 
 5. **Data Sources**: Will this access files, databases, APIs, or other data sources?
 
+[PUT EXPLANATION HERE]
+[SAMPLE]
 Build an MCP server using a Kali Linux Docker container with security tools like nmap, nikto, sqlmap, wpscan, dirb, and searchsploit installed. Create Python functions wrapped with FastMCP decorators for each tool, sanitizing inputs and returning formatted text results. Run as non-root with proper capabilities set for network tools, and include basic environment variables for configuration.
 
 Create it in a way where I can perform web pentests on servers in my own environment, for educational purposes. 
